@@ -13,6 +13,8 @@ nav {
     margin: 5px;
     list-style: none;
     font-weight: bold;
+    text-decoration-color: black;
+    color: black;
 }
 
 footer ul {
@@ -26,16 +28,16 @@ footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    text-decoration-color: black;
+    color: black;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+
 
 h1 {
     font-size: 3em;
@@ -47,9 +49,15 @@ p {
     line-height: 1.4em;
 }
 
-#text-black {
+.text-black {
     color: #333;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+.text-black-big {
+    color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.5em;
 }
 
 footer {
@@ -125,8 +133,6 @@ ul.posts li {
     z-index: 2;
   }
 
-/* body styles */
-
   body, html {
     overflow: hidden;
   }
@@ -144,9 +150,6 @@ ul.posts li {
     font-size: 100%;
   }
 
-  /* style the groups
-  --------------------------------------------- */
-
   #home {
     z-index: 5; /* slide over group 2 */
   }
@@ -158,6 +161,11 @@ ul.posts li {
     font-size: 200%;
   }
   
+.pixels {
+    font-family: 'Geo', monospace;
+    font-size: 3.5em;
+}
+
   .subtitle {
     position: absolute;
     top:15%;
@@ -167,7 +175,7 @@ ul.posts li {
     font-family: 'Geo', sans-serif;
   }
 
-    #header {
+    #intro-header {
     margin-bottom: 20px;
 }
 
@@ -210,6 +218,21 @@ ul.posts li {
  .star {
     width: 80%;
   }
+
+    #story-header {
+    margin-bottom: 20px;
+}
+
+.text-white {
+    color: white;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+.text-white:hover {
+    text-decoration:underline;
+}
 
 .gallery {
     Position: relative;
@@ -319,6 +342,10 @@ ul.posts li {
   #story {
     z-index: 4; /* slide over group 2 and 4 */
   }
+
+#ambition-header {
+    margin-bottom: 20px;
+}
 
   .ambition_text {
     position: absolute;
@@ -451,7 +478,6 @@ ul.posts li {
 
 .overlay-text {
   color: white;
-  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
