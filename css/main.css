@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Geo');
 
+html { font-size: 1.5vw; }
+
 body {
     margin: 60px auto;
     
@@ -143,7 +145,6 @@ ul.posts li {
     font-size: 100%;
   }
 
-
   /* style the groups
   --------------------------------------------- */
 
@@ -185,6 +186,11 @@ ul.posts li {
   .intro_heart {
     position: absolute;
     left:5%;
+    width: 100%;
+  }
+
+  .heart {
+    width: 20%;
   }
 
   .intro_text {
@@ -196,13 +202,15 @@ ul.posts li {
     text-align: justify;
   }
 
-
   .intro_star {
      position: absolute;
     top:70%;
-    right:26%;  
+    left:26%;
   }
 
+ .star {
+    width: 80%;
+  }
 
 .gallery {
     Position: relative;
@@ -234,7 +242,7 @@ ul.posts li {
 .gallery-track {
     display: flex;
     align-items: center;
-    width: 500vh;
+    width: 350vw;
     height: 100%;
     position: relative;
     margin-top: 50px;
@@ -316,7 +324,7 @@ ul.posts li {
   .ambition_text {
     position: absolute;
     position: 60%;
-    font-size: 70%;
+    font-size: 0.7em;
     width: 100%;
     margin: 20px;
       text-align: center;
@@ -345,16 +353,26 @@ ul.posts li {
     position: absolute;
     top:15%;
     left:65%; 
+    width: 100%;
+  }
+
+  .trophy {
+    width: 18%;  
   }
 
   .ambition_1up {
     position: absolute;
     top:60%;
     left:42%;
+    width: 100%;
   }
 
+.one-up {
+    width: 20%;
+}
+
   #info {
-    z-index: 2; /* slide under group 3 and 5 */
+    z-index: 1; /* slide under group 3 and 5 */
   }
 
 .info_text {
@@ -383,13 +401,23 @@ ul.posts li {
     position: absolute;
     top:80%;
     left:48%;
+      width: 100%;
   }
+
+.cherries {
+    width: 21%;
+}
 
   .info_pacman {
     position: absolute;
     top:55%;
     left:20%;
+      width: 100%;
   }
+
+.pacman {
+    width: 25%;
+}
 
 
 
@@ -445,9 +473,8 @@ ul.posts li {
 }
 
 .image-small:hover {
-    background: black;
+    opacity: 0.5;
 }
-
 
 .video-container {
 position: relative;
