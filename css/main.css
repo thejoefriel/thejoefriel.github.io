@@ -489,7 +489,7 @@ ul.posts li {
   bottom: 0;
   left: 0;
   right: 0;
-  max-width: 100%;
+  max-width: 80%;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(173,216,230,0.85);
@@ -514,7 +514,7 @@ ul.posts li {
 }
 
 .image {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
